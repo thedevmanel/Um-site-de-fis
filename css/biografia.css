@@ -1,0 +1,104 @@
+/* conteiner de para tudo */
+.conteiner-life-employee {
+  width: 100%;
+  margin-top: 5%;
+}
+
+/* div mestre que ira conter todos as info que vierem da esq */
+.content-life-info-left {
+  width: 65%;
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    155deg,
+    rgba(17, 17, 17, 1) 76%,
+    rgba(51, 221, 255, 1) 100%
+  );
+  display: flex;
+  border-radius: 5px;
+  margin: 5% 0 0 5%;
+}
+
+/* mesma coisa que a de cima, porem da dir */
+.content-life-info-right {
+  width: 65%;
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    205deg,
+    rgba(17, 17, 17, 1) 76%,
+    rgba(51, 221, 255, 1) 100%
+  );
+  display: flex;
+  border-radius: 5px;
+  margin: 5% 0 0 30%;
+}
+
+/* div para controlar o que esta escrito */ 
+.content-bio-info {
+  width: 70%;
+  border-radius: 5px;
+  display: block;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+/* div para controlar a imagem */
+.content-bio-image {
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* personalização do titulo */
+.title-info-bio-employee {
+  color: #3ef;
+  text-transform: uppercase;
+  margin-top: 5%;
+  font-size: 30px;
+  text-shadow: #fef 2px 0px 15px;
+}
+
+/* hr que esta abaixo do titulo */
+.line-bio-content {
+  width: 90%;
+  border: 2px solid #3ef;
+  box-shadow: #fef 2px 0px 5px, #fef 2px 0px 15px, #fef 2px 0px 25px;
+}
+
+/* div que ira melhorar a personalização do texto */
+.content-text-info-bio {
+  width: 90%;
+  margin-top: 5%;
+}
+
+/* personalização do texto */
+.text-info-bio {
+  color: #fef;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+/* personalização do texto */
+.image-bio-info {
+  width: 80%;
+  padding-block: 20px;
+}
+
+[data-animation-bio] {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+[data-animation-bio="left"] {
+  transform: translate3d(400px, 0, 0);
+}
+
+[data-animation-bio="right"] {
+  transform: translate3d(-400px, 0, 0);
+}
+
+[data-animation-bio].normal-div-animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

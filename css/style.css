@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1283307885/pt/vetorial/stippled-vector-texture-background-white-dots-on-black.jpg?s=612x612&w=0&k=20&c=kUB55YT7UXrCb--49p3lw0TIAIQB0_UDIRCPkoergeQ=");
+  font-family: Roboto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #111;
+  justify-content: space-between;
+  padding-block: 5px;
+}
+
+/* Div que ira conter as imagens */
+.containers-image-one {
+  width: 20%;
+  padding: 0px 20px;
+}
+
+.images-header {
+  width: 20%;
+}
+
+/* Parte com o titulo do header */
+.title-header-first {
+  width: 60%;
+  font-size: 25px;
+  color: #fef;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stars-containers-two {
+  width: 20%;
+  padding: 0px 20px;
+  text-align: right;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background: #111;
+}
+
+.buttons-navbar {
+  width: 150px;
+  padding-block: 10px;
+  color: #fef;
+  text-shadow: #fef 2px 0px 5px, #fef 2px 0px 15px, #fef 2px 0px 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: ease 0.2s;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.button-navbar-page {
+  width: 150px;
+  padding-block: 10px;
+  color: #3ef;
+  text-shadow: #3ef 2px 0px 5px, #3ef 2px 0px 15px, #3ef 2px 0px 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: ease 0.2s;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.buttons-navbar:hover,
+.button-navbar-page:hover {
+  text-shadow: #fef 2px 0px 5px, #fef 2px 0px 5px, #fef 2px 0px 15px,
+    #fef 2px 0px 15px, #fef 2px 0px 25px, #fef 2px 0px 25px, #fef 2px 0px 55px,
+    #fef 2px 0px 55px, #fef 2px 0px 75px;
+}
+
+.footer {
+  width: 100%;
+  padding-block: 5%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  color: #fef;
+  margin-top: 5%;
+}

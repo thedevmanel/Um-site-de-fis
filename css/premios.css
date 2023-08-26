@@ -1,0 +1,42 @@
+/* div mestre das honrarias */
+.conteiner-trophies {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.content-trophies {
+  width: 30%;
+  padding-block: 2%;
+  background: #111;
+  display: block;
+  text-align: center;
+}
+
+.title-trophie-info {
+  color: #fef;
+  text-transform: uppercase;
+}
+
+.image-conteiner {
+  width: 100%;
+  max-width: 300px;
+  padding-block: 5%;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.image-trophie-info {
+  width: 100%;
+  margin-top: 5px;
+  height: 300px;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.text-description-image {
+  color: #fef;
+}

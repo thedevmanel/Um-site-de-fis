@@ -1,0 +1,42 @@
+.content-referencias {
+  width: 80%;
+  background: #111;
+  color: #fef;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 5% auto;
+  padding-block: 3%;
+}
+
+.title-referencias {
+  color: #3df;
+  margin-left: 3%;
+  text-transform: uppercase;
+  text-shadow: #fef 2px 0px 15px;
+}
+
+.line-referencias-title {
+  border: 2px solid #3df;
+  width: 94%;
+  margin: 2% 0 0 3%;
+}
+
+.content-text-referencias {
+  width: 94%;
+  margin: 3% 0 0 3%;
+  text-align: justify;
+}
+
+.link-referencias {
+  color: #3df;
+  transition: ease 0.3s;
+}
+
+.link-referencias:hover {
+  text-shadow: 2px 0px 5px;
+}
+
+.link-referencias:visited {
+  color: #3df;
+  transition: ease 0.2s;
+}

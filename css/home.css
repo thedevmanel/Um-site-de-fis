@@ -1,0 +1,58 @@
+/* conteiner de para tudo */
+.content-container {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-information-border {
+  width: 70%;
+  border: 3px solid #fef;
+  border-radius: 5px;
+  display: flex;
+  background: #111;
+}
+
+.content-information-description {
+  width: 50%;
+}
+
+.content-information-image {
+  width: 50%;
+  text-align: center;
+}
+
+.title-information-employee {
+  color: #fef;
+  text-transform: uppercase;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.description-employee {
+  width: 80%;
+  padding-left: 10%;
+  margin-top: 100px;
+  color: #fef;
+}
+
+.title-description-employee {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #aef;
+  letter-spacing: 0px;
+}
+
+.text-information-employee {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+.image-description-layer {
+  padding: 5%;
+  width: 80%;
+}
